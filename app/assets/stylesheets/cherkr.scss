@@ -1,0 +1,144 @@
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.background{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	background:linear-gradient(0deg,rgba(60, 121, 187, 0.6),rgba(60, 121, 187, 0.6)), url(https://checkr.com/wp-content/uploads/2015/10/checkr_header_industries-1.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.premier-menu {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	
+	
+}
+
+.premier-menu a{
+	text-decoration: none;
+	margin: 20px 20px 20px 20px;
+	color: white;
+	font-family: "inherit","proxima-nova","sans-serif";
+}
+
+.premier-menu a:hover{
+	color: lightgrey;
+}
+
+#logo{
+
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	width: 130px;
+	height: 33px;
+}
+
+.deuxième-menu{
+	position: relative;
+	display: flex;
+	margin-top: 40px;
+	margin-left: 8%;
+}
+
+.deuxième-menu a{
+	color: white;
+	text-decoration: none;
+	margin-right: 30px;
+	font-family: "proxima-nova","sans-serif";
+}
+
+.deuxième-menu a:hover{
+	color: lightgrey;
+	text-decoration: none;
+}
+
+.menu-1{
+	position: relative;
+	margin-right: 10px;
+}
+
+.menu-1 > li{
+	display: inline;
+}
+
+.menu-1 > li:hover .menu-2{
+	display: block;
+	position: absolute;
+	top: 30px;
+	border: 3px lightgrey solid;
+
+}
+
+.menu-2{
+	display: none;
+}
+
+.login{
+	position: relative;
+	display: flex;
+	text-align: right;
+	width: 40px;
+	margin-left: 400px;
+}
+	
+.started a{
+	color: #E9CA2C;
+	letter-spacing: 0.1em;
+	border: 3px #E9CA2C solid;
+	padding: 1.5rem 2.3rem 1.5rem;
+	background: url(https://checkr.com/wp-content/themes/checkr/assets/img/arrow-right_yellow.svg) center center/1.11rem 0.89rem no-repeat;background: url(https://checkr.com/wp-content/themes/checkr/assets/img/arrow-right_yellow.svg) center center/1.11rem 0.89rem no-repeat;
+	background-position: 90%;
+}
+
+.started a:hover{
+	background-color: #E9CA2C;
+	color:grey;
+}
+
+#video{
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 100px;
+}
+.presentation{
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 100px;
+	margin-left: 2%;
+}
+.titre{
+	color: white;
+	font-family: "DIN Next W01 Bold",sans-serif;
+    font-weight: 400;
+}
+/*.titre{
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 100px;
+}
+/*.menu-2 li{
+	list-style: none;
+	display: inline-block;
+	position: absolute;
+  width: 200px;
+  display: none;
+}
+
+.menu-2 li:hover{
+	display:block;
+	background: #555;
+	display: block;
+}*/
